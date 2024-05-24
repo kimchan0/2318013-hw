@@ -5,8 +5,8 @@ class Fishbread:
         self.total = 0
 
     def sell(self):
-        print(f"{self.type}을 {self.price}에 팔았습니다.")
         self.total += self.price
+        print(f"{self.type}을 {self.price}에 팔았습니다.")
 
 슈크림 = Fishbread("슈크림붕어빵", 1000)
 
